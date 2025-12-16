@@ -1,0 +1,1 @@
+Use any other open source model in place of openai and do the summarization of a pdf document using langchain and the concept of RAG. use chromadb vector database for this
