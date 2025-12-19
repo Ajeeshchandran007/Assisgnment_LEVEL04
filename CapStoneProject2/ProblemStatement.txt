@@ -1,0 +1,7 @@
+problem statement:
+ 
+Download Ollama or LM Studio or GPT4all and install on your desktop. Take any private document you have (a pdf or text) and convert it to embeddings (using sentence transformers or any other way) and store the embeddings on to the local vector db, consider chromadb.
+ 
+Then, using python program, build a RAG agent that connects to the desktop LLM, vector db and langchain and a prompt from the user. 
+
+Then user queries specific information from the document, and the RAG agent returns the answer
