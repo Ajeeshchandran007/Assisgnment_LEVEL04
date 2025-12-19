@@ -1,0 +1,1 @@
+create a toolchain with LLM, langchain and nosql database such as mongodb or redis and upload your information on to the nosql database and query it through an LLM
