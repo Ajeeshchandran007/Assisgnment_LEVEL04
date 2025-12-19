@@ -1,0 +1,1 @@
+For testing, please ensure that you need to rename "Daniel.mp3" audio file to "query_audio.mp3"
