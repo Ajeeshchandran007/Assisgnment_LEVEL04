@@ -1,0 +1,80 @@
+python.exe .\VoiceTranslator.py
+📦 Required packages:
+   pip install langgraph speechrecognition pyaudio gtts openai python-dotenv
+
+✓ All required packages are installed!
+
+✓ OpenAI API key loaded from .env file!
+
+============================================================
+🌍 VOICE TRANSLATOR APP (LangGraph)
+============================================================
+
+Supported Languages:
+  1. English
+  2. Hindi
+  3. Tamil
+  4. Malayalam
+  5. French
+
+Select INPUT MODE:
+  1. Speech (speak into microphone)
+  2. Text (type your text)
+
+Enter choice (1-2): 2
+
+Select INPUT language:
+  1. English
+  2. Hindi
+  3. Tamil
+  4. Malayalam
+  5. French
+
+Enter choice (1-5): 1
+
+Select OUTPUT language:
+  1. English
+  2. Hindi
+  3. Tamil
+  4. Malayalam
+  5. French
+
+Enter choice (1-5): 4
+
+✓ Input Mode: TEXT
+✓ Input Language: English
+✓ Output Language: Malayalam
+
+============================================================
+⌨️  Text input mode activated...
+
+Enter text in English: Beyond the Clockroot Sea lay Aeralis, a floating world stitched together by gravity vines. Cities drifted like lanterns, guided by wind-whales that sang maps into the sky. Children learned weather before language. When the sun cracked one dawn, a quiet gardener named Ixo planted a shadow seed. Night bloomed briefly, mending the light. Ever since, 
+Aeralis remembers that even small hands can hold the sky.
+✓ Received: Beyond the Clockroot Sea lay Aeralis, a floating world stitched together by gravity vines. Cities drifted like lanterns, guided by wind-whales that sang maps into the sky. Children learned weather before language. When the sun cracked one dawn, a quiet gardener named Ixo planted a shadow seed. Night bloomed briefly, mending the light. Ever since, Aeralis remembers that even small hands can hold the sky.
+🔄 Translating from English to Malayalam...
+✓ Translated: ക്ലോക്ക്റൂട്ട് കടലിന്റെ അപ്പുറം എയർലിസ്, ഗുരുത്വാകർഷണ തണ്ടുകൾ കൊണ്ട് ചേർത്ത ഒരു ഒഴുകുന്ന ലോകം. നഗരങ്ങൾ വിളക്കു
+കളെപ്പോലെ ഒഴുകി, ആകാശത്തിലേക്ക് പടങ്ങൾ പാടുന്ന കാറ്റ്-തിമിംഗലങ്ങൾ വഴി നയിക്കപ്പെട്ടു. കുട്ടികൾ ഭാഷയ്ക്ക് മുമ്പ് കാലാവസ്ഥയെ പ
+ഠിച്ചു. ഒരു പ്രഭാതത്തിൽ സൂര്യൻ പൊട്ടിപ്പൊളിഞ്ഞപ്പോൾ, ഇക്സോ എന്ന ശാന്തനായ ഒരു തോട്ടക്കാരൻ ഒരു നിഴൽ വിത്ത് നട്ടു. രാത്രി ചുരുങ
+്ങിയ സമയം പൂത്തു, വെളിച്ചത്തെ ശാന്തമാക്കി. അന്നുമുതൽ, എയർലിസ് ഓർക്കുന്നു ചെറുതായ കൈകൾ പോലും ആകാശത്തെ പിടിക്കാമെന്ന്.        
+🔊 Converting text to speech in Malayalam...
+✓ Audio saved: translation_20251218_222739.mp3
+
+============================================================
+✅ TRANSLATION COMPLETED!
+============================================================
+
+📝 Original Text (English):
+   Beyond the Clockroot Sea lay Aeralis, a floating world stitched together by gravity vines. Cities drifted like lanterns, 
+guided by wind-whales that sang maps into the sky. Children learned weather before language. When the sun cracked one dawn, 
+a quiet gardener named Ixo planted a shadow seed. Night bloomed briefly, mending the light. Ever since, Aeralis remembers that even small hands can hold the sky.
+
+🌐 Translated Text (Malayalam):
+   ക്ലോക്ക്റൂട്ട് കടലിന്റെ അപ്പുറം എയർലിസ്, ഗുരുത്വാകർഷണ തണ്ടുകൾ കൊണ്ട് ചേർത്ത ഒരു ഒഴുകുന്ന ലോകം. നഗരങ്ങൾ വിളക്കുകളെപ്പോലെ ഒ
+ഴുകി, ആകാശത്തിലേക്ക് പടങ്ങൾ പാടുന്ന കാറ്റ്-തിമിംഗലങ്ങൾ വഴി നയിക്കപ്പെട്ടു. കുട്ടികൾ ഭാഷയ്ക്ക് മുമ്പ് കാലാവസ്ഥയെ പഠിച്ചു. ഒരു
+ പ്രഭാതത്തിൽ സൂര്യൻ പൊട്ടിപ്പൊളിഞ്ഞപ്പോൾ, ഇക്സോ എന്ന ശാന്തനായ ഒരു തോട്ടക്കാരൻ ഒരു നിഴൽ വിത്ത് നട്ടു. രാത്രി ചുരുങ്ങിയ സമയം പ
+ൂത്തു, വെളിച്ചത്തെ ശാന്തമാക്കി. അന്നുമുതൽ, എയർലിസ് ഓർക്കുന്നു ചെറുതായ കൈകൾ പോലും ആകാശത്തെ പിടിക്കാമെന്ന്.
+
+🔊 Audio File: translation_20251218_222739.mp3
+
+============================================================
+PS D:\GENAI\HCL\LEVEL04\Assisgnment3\VoiceTranslator> 
