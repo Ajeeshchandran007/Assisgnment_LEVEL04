@@ -1,0 +1,46 @@
+ python.exe .\AudioSimilarityFinder.py
+Initialized AudioSimilaritySearch with collection: my_audio_collection
+Using cosine similarity metric
+Current database size: 0 audio files
+
+=== Adding Audio Files from Directory ===
+
+Found 3 audio files in ./input
+✓ Added: Alice.mp3
+✓ Added: Bill.mp3
+✓ Added: Daniel.mp3
+
+Successfully added 3/3 files
+
+=== Searching for Similar Audio ===
+
+======================================================================
+Query Audio: query_audio.mp3
+======================================================================
+
+🎯 Best Match:
+----------------------------------------------------------------------
+✓ Daniel.mp3
+   Similarity Score: 99.60%
+   Cosine Distance: 0.003999
+   Path: input\Daniel.mp3
+   Interpretation: Very High Similarity - Likely same speaker/source
+
+
+=== Database Information ===
+Collection: my_audio_collection
+Total Audio Files: 3
+Storage Location: ./audio_database
+Distance Metric: cosine
+PS D:\GENAI\HCL\LEVEL04\Assisgnment2\AudioSimilarityFinder>
+
+
+
+
+
+
+
+
+
+
+
