@@ -1,0 +1,6 @@
+pymongo 
+langchain 
+langchain-openai 
+langchain-core 
+python-dotenv 
+numpy
