@@ -1,0 +1,15 @@
+problem statement:
+
+Construct a RAG agent using python programming, any open source LLM, sentence transformer for embeddings and an open source vector db. The upload the embeddings on to the vector db.
+ 
+1. Connect to SQLite for storing the summary from LLM
+
+2. Take the summary and send it as a message to your WhatsApp
+
+3. Take the summary and send it as a text message to your phone
+
+4. Take the summary and send it to your email 
+
+5. Take the summary and shorten the summary to 280 characters 
+
+   and post it on your on your twitter handle

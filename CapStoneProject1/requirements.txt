@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+openai
+chromadb
+pypdf
+streamlit
+twilio
+requests
+requests-oauthlib
